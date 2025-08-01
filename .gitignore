@@ -31,13 +31,13 @@ dados_output/*_prequalificados_*
 
 # ✅ INCLUIR (arquivos pequenos importantes):
 # - README.md
-# - CLAUDE.md  
 # - 01_analise_exploratoria_quark.ipynb
 # - socios_administradores_limpo.csv (6.6MB)
 # - dados_output/quark_leads_clusterizado.csv (30MB - borderline)
 
+# 🚫 Excluir documentação técnica interna
+CLAUDE.md
+
 # Força inclusão de arquivos específicos importantes
 !README.md
-!CLAUDE.md
 !*.ipynb
-!*.md
