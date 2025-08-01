@@ -192,9 +192,25 @@ FROM `silent-text-458716-c9.cnpj_dados_rfb.view_quark_enriquecida_rfb`;
 - [`dados_bq/leads_prequalificados.parquet`](dados_bq/leads_prequalificados.parquet) - Base RFB pré-qualificada (550.789 empresas)
 
 #### **💾 Outputs Processados (Prontos para CRM)**
-- [`dados_output/quark_leads_clusterizado.csv`](dados_output/quark_leads_clusterizado.csv) - Base Quark + clusters semânticos NLP
-- [`dados_output/leads_prequalificados_clusterizado.csv`](dados_output/leads_prequalificados_clusterizado.csv) - Base RFB + clusters semânticos NLP
-- [`socios_administradores_limpo.csv`](socios_administradores_limpo.csv) - Sócios com perfil administrativo
+
+> ⚠️ **Arquivos grandes excluídos do repositório GitHub** (296MB + 30MB)  
+> 📥 **Downloads disponíveis via links diretos:**
+
+- **🎯 Base Quark Clusterizada** (30MB) - Base Quark + clusters semânticos NLP  
+  📁 `dados_output/quark_leads_clusterizado.csv`  
+  📥 [**DOWNLOAD DIRETO**](https://github.com/Ericobon/quark_leads_cnpj/releases/download/v1.0/quark_leads_clusterizado.csv)
+
+- **🏛️ Base RFB Clusterizada** (296MB) - Base RFB + clusters semânticos NLP  
+  📁 `dados_output/leads_prequalificados_clusterizado.csv`  
+  📥 [**DOWNLOAD DIRETO**](https://github.com/Ericobon/quark_leads_cnpj/releases/download/v1.0/leads_prequalificados_clusterizado.csv)
+
+- **👥 Sócios Administrativos** (6.6MB) - Incluído no repositório ✅  
+  📁 [`socios_administradores_limpo.csv`](socios_administradores_limpo.csv)
+
+#### **📊 Como Acessar os Dados:**
+1. **Arquivos pequenos**: Clone o repositório normalmente
+2. **Arquivos grandes**: Use os links de download direto acima
+3. **BigQuery**: Execute as queries SQL documentadas na seção anterior
 
 ### **📈 Visualizações**
 - Distribuição geográfica por UF
