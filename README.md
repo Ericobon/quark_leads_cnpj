@@ -193,24 +193,31 @@ FROM `silent-text-458716-c9.cnpj_dados_rfb.view_quark_enriquecida_rfb`;
 
 #### **💾 Outputs Processados (Prontos para CRM)**
 
-> ⚠️ **Arquivos grandes excluídos do repositório GitHub** (296MB + 30MB)  
-> 📥 **Downloads disponíveis via links diretos:**
+> 📂 **Pasta compartilhada OneDrive Quantum Invest**  
+> 🔗 **Acesso para colaboradores**: Entre em contato com erico.bonilha@quarkinvestimentos.com.br
+
+#### **📥 Downloads Individuais:**
 
 - **🎯 Base Quark Clusterizada** (30MB) - Base Quark + clusters semânticos NLP  
   📁 `dados_output/quark_leads_clusterizado.csv`  
-  📥 [**DOWNLOAD DIRETO**](https://github.com/Ericobon/quark_leads_cnpj/releases/download/v1.0/quark_leads_clusterizado.csv)
+  📥 [**DOWNLOAD DIRETO**](https://quantuminvest-my.sharepoint.com/:x:/g/personal/erico_bonilha_quarkinvestimentos_com_br/EQpgyl0X1KlEiB_4dlX8dY0BG9iwsIzivG50Q1SztE6CXQ?e=8u56r6)
 
 - **🏛️ Base RFB Clusterizada** (296MB) - Base RFB + clusters semânticos NLP  
   📁 `dados_output/leads_prequalificados_clusterizado.csv`  
-  📥 [**DOWNLOAD DIRETO**](https://github.com/Ericobon/quark_leads_cnpj/releases/download/v1.0/leads_prequalificados_clusterizado.csv)
+  📥 [**DOWNLOAD DIRETO**](https://quantuminvest-my.sharepoint.com/:x:/g/personal/erico_bonilha_quarkinvestimentos_com_br/EYbCfI6lswVKpZpVmKbAqBAButfvuiky2-uVwYbR6rPbQQ?e=fak1rL)
 
 - **👥 Sócios Administrativos** (6.6MB) - Incluído no repositório ✅  
   📁 [`socios_administradores_limpo.csv`](socios_administradores_limpo.csv)
 
 #### **📊 Como Acessar os Dados:**
 1. **Arquivos pequenos**: Clone o repositório normalmente
-2. **Arquivos grandes**: Use os links de download direto acima
+2. **Arquivos grandes**: Downloads diretos via OneDrive Quark Investimentos
 3. **BigQuery**: Execute as queries SQL documentadas na seção anterior
+
+#### **🔐 Acesso Empresarial:**
+- **Hospedagem**: OneDrive Business - Quantum Invest
+- **Responsável**: erico.bonilha@quarkinvestimentos.com.br
+- **Controle**: Links corporativos com estatísticas de acesso
 
 ### **📈 Visualizações**
 - Distribuição geográfica por UF
