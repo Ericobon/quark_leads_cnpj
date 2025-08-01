@@ -1,0 +1,38 @@
+# 📊 Quark Leads Analysis - Requirements
+# Dependências para notebook de análise exploratória de leads empresariais
+
+# ===== CORE DATA PROCESSING =====
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=12.0.0
+
+# ===== GOOGLE CLOUD =====
+google-cloud-bigquery>=3.10.0
+google-cloud-storage>=2.10.0
+
+# ===== MACHINE LEARNING & NLP =====
+scikit-learn>=1.3.0
+nltk>=3.8.1
+
+# ===== DATA VISUALIZATION =====
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ===== JUPYTER ENVIRONMENT =====
+jupyter>=1.0.0
+ipykernel>=6.22.0
+notebook>=6.5.0
+
+# ===== UTILITIES =====
+python-dotenv>=1.0.0
+
+# ===== SPECIFIC VERSIONS FOR STABILITY =====
+# Garantir compatibilidade entre todas as dependências
+setuptools>=65.0.0
+wheel>=0.40.0
+
+# ===== DEVELOPMENT (OPTIONAL) =====
+# Descomente se precisar de ferramentas de desenvolvimento
+# black>=23.0.0
+# flake8>=6.0.0
+# pytest>=7.0.0
