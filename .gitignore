@@ -1,0 +1,43 @@
+# 📊 Quark Leads - Git Ignore
+# Excluir arquivos grandes de dados
+
+# 🚫 Arquivos Parquet (BigQuery exports)
+dados_bq/*.parquet
+*.parquet
+
+# 🚫 CSVs grandes (outputs processados)
+dados_output/leads_prequalificados_clusterizado.csv
+dados_output/*_clusterizado.csv
+
+# 🚫 Arquivos de dados grandes (>50MB)
+*.csv
+!socios_administradores_limpo.csv  # Incluir este (6.6MB)
+
+# 📁 Diretórios temporários
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+
+# 🔑 Credenciais e configs
+*.json
+!package*.json
+*.env
+.env*
+
+# 📊 Outputs específicos grandes
+dados_output/leads_prequalificados_*
+dados_output/*_prequalificados_*
+
+# ✅ INCLUIR (arquivos pequenos importantes):
+# - README.md
+# - CLAUDE.md  
+# - 01_analise_exploratoria_quark.ipynb
+# - socios_administradores_limpo.csv (6.6MB)
+# - dados_output/quark_leads_clusterizado.csv (30MB - borderline)
+
+# Força inclusão de arquivos específicos importantes
+!README.md
+!CLAUDE.md
+!*.ipynb
+!*.md
